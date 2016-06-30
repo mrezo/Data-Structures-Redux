@@ -27,6 +27,6 @@ Stack.prototype.pop = function() {
     return removed;
   }
   return 'Cannot pop from an empty stack';
-}
+};
 
-
+module.exports = Stack;
